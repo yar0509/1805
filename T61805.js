@@ -12,11 +12,5 @@ var weekend = {
     6: "Seturday",
     7: "Sunday",
 }
-
-var day = weekend ["3"];
-
-    console.log(day);
-
-/*
-так наверное?
- */
+var day = 3;
+    console.log(weekend[day]);
