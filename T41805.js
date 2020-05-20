@@ -5,6 +5,5 @@
  */
 
 var array = ["Привет,", "мир", "!"];
-var text = "Привет, мир!";
-array[3] = text;
- console.log(array[3]);
+var text = array[0]+array[1]+array[2];
+ console.log(text);

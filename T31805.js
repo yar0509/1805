@@ -4,10 +4,7 @@
 */
 
 var greeting = {
-    slogan: ["Привет,", "мир", "!"]
+    slogan: ["Привет,"+"мир"+"!"]
    }
-console.log(greeting.slogan[0],greeting.slogan[1],greeting.slogan[2]);
+console.log(greeting.slogan[0]);
 
-/* пытался обйтись одним greeting.slogan[...] - не получилось.
-Пришлось прописывать три раза.
-*/
